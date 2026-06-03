@@ -70,7 +70,11 @@ attribution, and gave a small example of a SQL check that confirms a portfolio's
 - SQLBolt (https://sqlbolt.com): interactive lessons on `SELECT`, `WHERE`, `JOIN`, `NULL`s, and aggregates. This covered most of what these checks needed.
 - Cometly (https://www.cometly.com/post/multi-touch-attribution-sql): Multi Touch Attribution SQL
 - Microsoft Learn, Transact-SQL reference (https://learn.microsoft.com/en-us/sql/t-sql): the official docs for SQL Server, which is what I ran this on.
-- 
+
+## Case Studies & Real life Use Case Application
+
+- Risk Management Breakdown at AXA Rosenberg: The Curious Case of a Quant Manager Trusted Too Much (https://www.gsb.stanford.edu/faculty-research/publications/risk-management-breakdown-axa-rosenberg-curious-case-quant-manager)
+- https://www.sec.gov/news/press/2011/2011-37.htm
 
 ## Notes
 
