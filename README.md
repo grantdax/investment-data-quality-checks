@@ -2,7 +2,7 @@
 
 A small SQL harness that validates portfolio **holdings** and **security returns** before the
 data is used for performance or attribution analysis. It runs six data-quality checks against a
-sample dataset and returns every record that fails — the kind of "reconciliation before
+sample dataset and returns every record that fails, "reconciliation before
 attribution" work that has to happen before anyone trusts the numbers in a weekly investment packet.
 
 ## Why it matters
