@@ -9,8 +9,8 @@ attribution" work that has to happen before anyone trusts the numbers in a weekl
 
 Attribution and risk figures are only as good as the data feeding them. A single missing weight,
 a duplicated holding, or a return entered as a raw multiple instead of a percent will quietly
-corrupt every downstream calculation. Catching those issues early with repeatable SQL — rather
-than manual eyeballing — is the foundation the rest of the analytics depends on.
+corrupt every downstream calculation. Catching those issues early with repeatable SQL, rather
+than manual eyeballing is the foundation the rest of the analytics depends on.
 
 ## The data
 
@@ -33,7 +33,7 @@ purpose so each check has a known target. No proprietary or licensed data is use
 | 5 | No duplicate holdings | double-counted positions | `GROUP BY` / `HAVING COUNT(*)` |
 | 6 | Every holding has a matching return | orphaned holdings | `LEFT JOIN` |
 
-Each query returns only the failing rows — an empty result means the check passed.
+Each query returns only the failing rows an empty result means the check passed.
 
 ## What it found
 
